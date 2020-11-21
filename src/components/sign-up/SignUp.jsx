@@ -1,32 +1,20 @@
 import React, { useState } from 'react';
-import { useHistory, Redirect, Link } from 'react-router-dom';
-import { useUser } from 'reactfire';
-
+import { Link } from 'react-router-dom';
 import { auth } from '../../firebase-config';
-import styles from './Login.module.scss';
+
+import styles from './SignUp.module.scss';
 import Logo from '../../assets/logo.png';
 import Cityimage from '../../assets/bogotalg1.jpg';
 
-export const Login = () => {
+export const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { push } = useHistory();
-  const user = useUser();
 
-  const loginUser = (e) => {
+  const signUpUser = (e) => {
     e.preventDefault();
-    auth.signInWithEmailAndPassword(email, password)
-      .then(() => {
-        push('/');
-      })
-      .catch(() => {
-        alert('Correo contraseña no valida');
-      });
+    auth.createUserWithEmailAndPassword(email, password)
+      .then((res) => alert(`Registrado ${res.user.email}`));
   };
-
-  if (user.data !== undefined && user.data !== null) {
-    return <Redirect to="/" />;
-  }
 
   return (
     <div className={styles.container}>
@@ -46,7 +34,11 @@ export const Login = () => {
         <h3>Treinta</h3>
         <p>¡Aplicación financiera gratuita!</p>
         <p>Inicia sesión y conoce los negocios que usan Treinta</p>
-        <form onSubmit={loginUser}>
+        <form onSubmit={signUpUser}>
+          <div className={styles.form_group}>
+            <input type="text" id="name" autoComplete="name" required placeholder="Nombre" />
+            <label htmlFor="name">Nombre</label>
+          </div>
           <div className={styles.form_group}>
             <input type="email" id="email" autoComplete="email" required placeholder="Correo" onChange={(ev) => setEmail(ev.target.value)} />
             <label htmlFor="email">Correo</label>
@@ -55,12 +47,12 @@ export const Login = () => {
             <input type="password" id="password" autoComplete="password" required placeholder="Contraseña" onChange={(ev) => setPassword(ev.target.value)} />
             <label htmlFor="password">Contraseña</label>
           </div>
-          <input type="submit" value="Iniciar sesión" />
+          <input type="submit" value="Regístrate" />
         </form>
         <div>
-          <p>¿Nuevo usuario?</p>
-          <Link to="/signup">
-            <h3>Regístrate</h3>
+          <p>¿Ya tienes cuenta?</p>
+          <Link to="/login">
+            <h3>Inicia sesión</h3>
           </Link>
         </div>
       </div>
