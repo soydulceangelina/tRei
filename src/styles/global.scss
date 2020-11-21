@@ -1,3 +1,12 @@
+@import './foundations/colors.scss';
+@import './foundations/spacing.scss';
+@import './foundations/breakpoints.scss';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
