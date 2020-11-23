@@ -2,26 +2,30 @@
 
 # Tecnologias usadas
 
-<figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png" style="width:100px">
-    <caption>React 17</caption>
-</figure>
+<div style="display:flex">
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png" style="width:100px">
+        <caption>React 17</caption>
+    </figure>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png" style="width:90px">
+        <caption>Sass</caption>
+    </figure>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png" style="width:150px">
+        <caption>Firebase</caption>
+    </figure>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png" style="width:150px">
+        <caption>Google maps API</caption>
+    </figure>
+</div>
+
+# Proceso de diseño.
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png" style="width:100px">
-    <caption>Sass</caption>
+    <img src="./src/assets/ui.jpg" style="width:500px">
 </figure>
-
-<figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png" style="width:200px">
-    <caption>Firebase</caption>
-</figure>
-
-<figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png" style="width:200px">
-    <caption>Google maps API</caption>
-</figure>
-
 
 # Pasos para correr el repositorio en local
 
