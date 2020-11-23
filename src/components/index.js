@@ -1,3 +1,4 @@
-export * from './login/Login';
-export * from './sign-up/SignUp';
-export * from './main/Main';
+export * from './text-input/TextInput';
+export * from './header/Header';
+export * from './submit-button/SubmitButton';
+export * from './maps/Maps';

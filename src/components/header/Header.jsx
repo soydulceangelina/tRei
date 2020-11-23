@@ -1,26 +1,24 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
 import { auth } from '../../firebase-config';
 
 import styles from './Header.module.scss';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/headerLogo.png';
 
 export const Header = () => {
-  const { push } = useHistory();
-
   const logOut = () => {
     auth.signOut()
       .then(() => {
-        push('/login');
+        window.location.reload();
       });
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <figure className={styles.container_logo}>
         <img
           src={Logo}
           alt="Logo"
+          className={styles.headerImage}
         />
       </figure>
       <button onClick={logOut} type="button">Cerrar sesión</button>

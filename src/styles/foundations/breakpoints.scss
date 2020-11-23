@@ -1,11 +1,11 @@
-$bp-small: 600px;
+$bp-small: 480px;
 $bp-med: 768px;
-$bp-large: 1366px;
+$bp-large: 1200px;
 
 $breakpoints: (
-  's':  (min-width:  $bp-small),
-  'm':  (min-width:  $bp-med),
-  'l':  (min-width: $bp-large),
+  's':  (max-width:  $bp-small),
+  'm':  (max-width:  $bp-med),
+  'l':  (max-width: $bp-large),
 ) !default;
 
 @mixin applyTo($breakpoint) {

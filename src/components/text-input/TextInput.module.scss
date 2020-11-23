@@ -1,0 +1,32 @@
+@import '../../styles/global.scss';
+
+.form_group{
+    transform: translate(-0%, -0%);
+    margin-bottom: 40px;
+    input{
+        display: block;
+        background-color: $light-gray-color;
+        color: $mediun-gray-color;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 60%;
+        min-width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    label{
+        position: absolute;
+        top: -2em;
+        left: 0;
+        opacity: 1;
+        transition: all 0.3s;
+    }
+}
+
+input:placeholder-shown + label{
+    top: 12px;
+    left: 12px;
+    opacity: 0;
+}

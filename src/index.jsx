@@ -9,11 +9,9 @@ import Router from './router/Router';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <FirebaseAppProvider firebaseConfig={firebaseConfig}>
-      <Router />
-    </FirebaseAppProvider>
-  </React.StrictMode>,
+  <FirebaseAppProvider firebaseConfig={firebaseConfig}>
+    <Router />
+  </FirebaseAppProvider>,
   document.getElementById('root'),
 );
 

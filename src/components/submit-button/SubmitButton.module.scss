@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+.submit_button{
+    background-color: $highlight-color;
+    color: $light-gray-color;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 60%;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: $hover-color;
+    }
+}

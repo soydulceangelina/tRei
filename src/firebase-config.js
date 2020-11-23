@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDlazSUbXvlYzFQrNdm6cAPczc0AhOce_A',
+  apiKey: process.env.REACT_APP_FIRE_KEY,
   authDomain: 'trei-2c31b.firebaseapp.com',
   databaseURL: 'https://trei-2c31b.firebaseio.com',
   projectId: 'trei-2c31b',

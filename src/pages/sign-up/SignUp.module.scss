@@ -1,0 +1,35 @@
+@import '../../styles/global.scss';
+
+.auth_container{
+    margin-top: getSpacing(2);
+    p{
+        padding-bottom: getSpacing(2);
+    }
+    .note{
+        color: $mediun-gray-color;
+        padding-right: getSpacing(1.5);
+    }
+    .highlight{
+        color: $main-color;
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    form{
+        padding-top: getSpacing(3);
+    }
+    .redirect{
+        display: flex;
+        padding-top: getSpacing(5);
+    }
+}
+
+@include applyTo('l'){
+    .auth_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
