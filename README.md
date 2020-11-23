@@ -2,32 +2,30 @@
 
 # Tecnologias usadas
 
-<div>
-    <figure>
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png"
-            width="100px"
-        />
-    </figure>
-    <figure>
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png"
-            width="100px"
-        />
-    </figure>
-    <figure>
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png"
-            width="150px"
-        />
-    </figure>
-    <figure>
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png"
-            width="150px"
-        >
-    </figure>
-</div>
+<figure>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png"
+        width="100px"
+    />
+</figure>
+<figure>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png"
+        width="100px"
+    />
+</figure>
+<figure>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png"
+        width="150px"
+    />
+</figure>
+<figure>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png"
+        width="150px"
+    >
+</figure>
 
 # Proceso de diseño.
 
