@@ -2,7 +2,7 @@
 
 # Tecnologias usadas
 
-<div style="display:flex;align-items:center;width:100%;justify-content:space-between;">
+<div>
     <figure>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png"
