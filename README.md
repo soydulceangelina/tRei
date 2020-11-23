@@ -3,20 +3,20 @@
 # Tecnologias usadas
 
 <div style="display:flex">
-    <figure style="width:100px">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png" style="width:100%">
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png" width="100px">
         <caption>React 17</caption>
     </figure>
-    <figure style="width:100px">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png" style="width:100%">
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png" width="100px">
         <caption>Sass</caption>
     </figure>
-    <figure style="width:100px">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png" style="width:100%">
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png" width="100px">
         <caption>Firebase</caption>
     </figure>
-    <figure style="width:100px">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png" style="width:100%">
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png" width="100px">
         <caption>Google maps API</caption>
     </figure>
 </div>
