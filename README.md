@@ -2,38 +2,30 @@
 
 # Tecnologias usadas
 
-<div style="display:flex">
+<div style="display:flex; align-items:center;">
     <figure>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png"
             width="100px"
-            height="100px"
         />
-        <caption>React 17</caption>
     </figure>
     <figure>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/245px-Sass_Logo_Color.svg.png"
             width="100px"
-            height="100px"
         />
-        <caption>Sass</caption>
     </figure>
     <figure>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/245px-Firebase_Logo.svg.png"
-            width="100px"
-            height="50px"
+            width="150px"
         />
-        <caption>Firebase</caption>
     </figure>
     <figure>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/245px-Google_Maps_Logo.svg.png"
-            width="100px"
-            height="50px"
+            width="150px"
         >
-        <caption>Google maps API</caption>
     </figure>
 </div>
 
